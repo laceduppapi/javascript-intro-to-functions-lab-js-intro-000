@@ -15,6 +15,7 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
+<<<<<<< HEAD
 switch (string) {
   case 'hello':
     return "I can't hear you!"
@@ -24,5 +25,11 @@ switch (string) {
       break;
   default:
     return "I love you, too."
+=======
+  if ('hello') {
+   return "I can't hear you!"
+}  else if ('HELLO') {
+   return "YES INDEED!"
+>>>>>>> 0aaf3c4a93c9d9723c2c9aac847f3acadaece35c
 }
 }
